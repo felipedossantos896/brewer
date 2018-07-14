@@ -9,7 +9,7 @@ public class UsuarioController {
 
 	@RequestMapping("/novo")
 	public String novo() {
-		return "/usuario/CadastroUsuario.html";
+		return "/usuario/CadastroUsuario";
 	}
 	
 }
